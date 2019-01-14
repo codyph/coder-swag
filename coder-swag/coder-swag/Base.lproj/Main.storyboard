@@ -80,22 +80,20 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="CODER SWAG" id="NgH-WI-0ws">
-                        <barButtonItem key="backBarButtonItem" title="BACK" id="hyo-C4-zyv"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="CODER SWAG" id="NgH-WI-0ws"/>
                     <connections>
                         <outlet property="categoryTable" destination="tKC-Pd-g1u" id="e8y-ok-QPv"/>
-                        <segue destination="uwV-th-syV" kind="show" id="scU-Pm-DUO"/>
+                        <segue destination="uwV-th-syV" kind="show" identifier="toProductVC" id="scU-Pm-DUO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--ProductVC-->
         <scene sceneID="2HT-9k-prP">
             <objects>
-                <viewController id="uwV-th-syV" sceneMemberID="viewController">
+                <viewController id="uwV-th-syV" customClass="ProductVC" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0FA-KJ-zsM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +118,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="nIq-xZ-oxW" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="nIq-xZ-oxW" customClass="ProductCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="178" height="271"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -183,6 +181,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="K8u-hh-0eV"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="vZz-zR-QiZ" id="4Bo-vh-DZm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ld4-QM-lIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -198,6 +199,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.3411764705882353" green="0.15294117647058825" blue="0.15686274509803921" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>

@@ -17,6 +17,7 @@
 		D4E41A0D21EC595700220AD4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E41A0C21EC595700220AD4 /* DataService.swift */; };
 		D4E41A0F21EC64B000220AD4 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E41A0E21EC64B000220AD4 /* ProductCell.swift */; };
 		D4E41A1121EC655000220AD4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E41A1021EC655000220AD4 /* Product.swift */; };
+		D4E41A1321EC6A3700220AD4 /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E41A1221EC6A3700220AD4 /* ProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D4E41A0C21EC595700220AD4 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D4E41A0E21EC64B000220AD4 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		D4E41A1021EC655000220AD4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D4E41A1221EC6A3700220AD4 /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				D4E419F421EB737500220AD4 /* CategoriesVC.swift */,
+				D4E41A1221EC6A3700220AD4 /* ProductVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				D4E419F321EB737500220AD4 /* AppDelegate.swift in Sources */,
 				D4E41A0821EB76CD00220AD4 /* CategoryCell.swift in Sources */,
 				D4E41A0F21EC64B000220AD4 /* ProductCell.swift in Sources */,
+				D4E41A1321EC6A3700220AD4 /* ProductVC.swift in Sources */,
 				D4E41A0A21EC57FA00220AD4 /* Category.swift in Sources */,
 				D4E41A0D21EC595700220AD4 /* DataService.swift in Sources */,
 				D4E41A1121EC655000220AD4 /* Product.swift in Sources */,
