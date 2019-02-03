@@ -5,4 +5,4 @@
 ![](images/Screen1.png =300x533.6)
 
 ### Selected Item Screen
-![33%](images/Screen2.png)
+![](images/Screen2.png {width=300px height=533.6px})
