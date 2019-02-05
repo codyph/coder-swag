@@ -1,5 +1,5 @@
 ## Description
-Mock store application. Each category has their own full selection of clothing.
+Mock store application. Each category has their own full selection of products.
 
 ## Screenshots
 
